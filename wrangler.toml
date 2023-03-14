@@ -1,0 +1,14 @@
+name = "yandex-reverse-search-api"
+main = "./dist/index.js"
+compatibility_date="2022-05-03"
+
+account_id = ""
+workers_dev = true
+
+[[rules]]
+type = "ESModule"
+globs = [ "**/*.js" ]
+
+[env.dev]
+
+[env.production]
